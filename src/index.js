@@ -4,9 +4,19 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
+
+
+import { Login } from './Components/Login';
+import { Movie } from './Components/Movie';
+import { Main } from './Components/Main';
+
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+
+
+<Main />
+
+
   </React.StrictMode>,
   document.getElementById('root')
 );
